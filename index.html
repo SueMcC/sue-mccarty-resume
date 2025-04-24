@@ -6,63 +6,52 @@
   <title>Sue McCarty - Professional Resume</title>
   <style>
     body {
-      background-color: #fff8f0;
-      color: #1a1a1a;
       font-family: Arial, sans-serif;
       line-height: 1.6;
+      background-color: #fff8f0;
+      color: #1a1a1a;
       margin: 0;
       padding: 40px 20px;
       max-width: 960px;
       margin-left: auto;
       margin-right: auto;
     }
-    h1 { font-size: 3rem; font-weight: bold; text-align: center; margin-bottom: 0.5rem; }
-    h2 { font-size: 1.75rem; font-weight: bold; color: black; border-bottom: 2px solid #e76f51; margin-top: 2rem; padding-bottom: 0.5rem; }
-    h3 { font-size: 1rem; font-weight: bold; margin: 0.5rem 0 0.25rem; }
-    ul { padding-left: 1.25rem; margin-top: 1rem; }
-    li { margin-bottom: 0.5rem; }
+    h1 { font-size: 2.5rem; font-weight: bold; text-align: center; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.5rem; font-weight: bold; border-bottom: 2px solid #e76f51; padding-bottom: 0.25rem; margin-top: 2rem; color: black; }
+    h3 { margin: 0.75rem 0 0.25rem; font-size: 1rem; font-weight: bold; }
     a { color: #e76f51; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .center { text-align: center; }
-    .flex-columns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-    .column {
-      flex: 1 1 45%;
-    }
-    .success-stories {
+    p.center, div.center { text-align: center; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.5rem; }
+    .tile-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1rem;
       margin-top: 1rem;
     }
     .tile {
-      background: #fff;
-      border-radius: 0.5rem;
+      background: white;
       padding: 0.75rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    .tile:hover { transform: scale(1.02); }
-    img {
+    .tile img {
       width: 100%;
-      height: 128px;
+      height: 150px;
       object-fit: cover;
       border-radius: 0.5rem;
-      margin-bottom: 0.5rem;
     }
     .caption { font-size: 0.85rem; color: #555; }
     .cta {
       background-color: #e76f51;
       color: white;
-      padding: 1rem 2rem;
-      border-radius: 9999px;
+      padding: 0.75rem 1.5rem;
+      border-radius: 999px;
       display: inline-block;
-      font-size: 1.25rem;
-      font-weight: bold;
+      font-size: 1.1rem;
       margin-top: 2rem;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -76,92 +65,109 @@
   </p>
 
   <h2>Professional Summary</h2>
-  <p>Strategic and results-driven leader with extensive experience in business transformation, commercial growth, and operational/service excellence across both public and private sectors. Adept at aligning strategic priorities with execution, embedding robust governance and compliance frameworks, and driving sustainable organisational performance. Recognised for successfully navigating complex stakeholder environments, fostering collaborative cultures, and leveraging data-driven insights for continuous improvement. Proven ability to lead diverse teams, deliver large-scale change programs, and influence at senior executive and Board levels to drive innovation, resilience, and long-term success.</p>
+  <p>Pragmatic and people-focused leader with deep experience in business transformation, commercial growth, and operational delivery across public and private sectors. Known for translating strategy into action, aligning teams around a clear purpose, and making complex change feel achievable. I bring strong governance and delivery discipline, a collaborative mindset, and a genuine commitment to building momentum that sticks. Whether navigating tricky stakeholder landscapes or leading large-scale change, I stay grounded in what matters—clarity, connection, and long-term impact.</p>
 
-  <div class="flex-columns">
-    <div class="column">
-      <h2>Career History</h2>
-      <ul>
-        <li><strong>Management Consultant</strong> - Business Vitality (2017-Present)</li>
-        <li><strong>Chief Executive Officer</strong> - Castleford (2015-2017)</li>
-        <li><strong>Chief Executive Officer</strong> - <a href="https://vimeo.com/90390917" target="_blank">Marketing Association (2007-2014)</a></li>
-        <li><strong>Board Member</strong> - Advertising Standards Authority (2007-2014)</li>
-        <li><strong>Chief Executive Officer</strong> - Proudmouth Dentistry (2004-2007)</li>
-        <li><strong>Founder & CEO</strong> - Via NZ Ltd (2001-2004)</li>
-        <li><strong>General Manager</strong> - esolutions (1999-2001)</li>
-        <li><strong>Early Career</strong> - EDS, Netway Communications, Telecom NZ (1987-1999)</li>
-      </ul>
-    </div>
-    <div class="column">
-      <h2>Core Competencies</h2>
-      <ul>
-        <li>Organisational Leadership</li>
-        <li>Financial & Commercial Acumen</li>
-        <li>Governance, Risk & Compliance</li>
-        <li>Strategic Planning & Policy Development</li>
-        <li>Operational & Service Excellence</li>
-        <li>People & Culture Leadership</li>
-        <li>Advocacy & Stakeholder Engagement</li>
-        <li>Transformation & Change Leadership</li>
-      </ul>
-    </div>
-  </div>
-
-  <h2>Success Stories</h2>
-  <div class="success-stories">
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/license-to-evolve-7">
-      <img src="FandG.jpg" alt="License to Evolve" />
-      <h3>License to Evolve</h3>
-      <div class="caption">How Fish &amp; Game Designed a Strategic Roadmap for Digital Growth, Efficiency, and Engagement</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/building-our-future-6?anim">
-      <img src="nzsupremecourt.jpg" alt="Building Our Future" />
-      <h3>Building Our Future</h3>
-      <div class="caption">How the Ministry of Justice Built a Resilient, High-Performing Policy Group for the Future</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/smarter-contracting-greater-value-5?anim">
-      <img src="sunrisefarm.jpg" alt="Smarter Contracting" />
-      <h3>Smarter Contracting, Greater Value</h3>
-      <div class="caption">NZ Beef &amp; Lamb's Blueprint for Smarter, More Transparent Contract Management</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/from-reactive-to-resilient-4?anim">
-      <img src="orange-liquid.webp" alt="From Reactive to Resilient" />
-      <h3>From Reactive to Resilient</h3>
-      <div class="caption">How Liquid IT Transformed Client Experience, Knowledge Management, and Security</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/from-creative-chaos-to-scalable-success-3?anim">
-      <img src="golden-confetti.jpg" alt="Creative Chaos" />
-      <h3>From Creative Chaos to Scalable Success</h3>
-      <div class="caption">How Castleford Strengthened Systems, Services, and Brand for Sustainable Growth</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/from-fragmentation-to-efficiency-2?anim">
-      <img src="NZImage.jpg" alt="DOC" />
-      <h3>From Fragmentation to Efficiency</h3>
-      <div class="caption">How the Department of Conservation Built a Smarter, More Integrated ICT Service Model</div>
-    </a>
-    <a class="tile" href="https://businessvitality.odoo.com/blog/success-stories-3/from-crisis-to-stability-1?anim">
-      <img src="dentistry-image.jpg" alt="Crisis to Stability" />
-      <h3>From Crisis to Stability</h3>
-      <div class="caption">How Proudmouth Transformed and Positioned Itself for a Successful Sale</div>
-    </a>
-  </div>
+  <h2>Core Competencies</h2>
+  <p><strong>Strategic Leadership & Influence:</strong> Proven ability to align people and priorities to strategic goals; engages and inspires stakeholders at all levels to foster commitment and shared vision.</p>
+  <p><strong>Enterprise Transformation & Change Delivery:</strong> Deep expertise in leading transformation programs using structured project, change, and service design methodologies; focused on sustainable, people-centred outcomes.</p>
+  <p><strong>Financial & Commercial Acumen:</strong> Strong track record in driving commercial performance, managing risk, and embedding fiscal discipline.</p>
+  <p><strong>Operational & Organisational Effectiveness:</strong> In-depth understanding of business functions and operating models including Governance, Risk & Compliance (GRC), service excellence, and continuous improvement.</p>
+  <p><strong>Critical Thinking & Problem Solving:</strong> Skilled at distilling complex information into insights that inform decisions, strengthen capability, and enable systemic improvements.</p>
+  <p><strong>Engagement, Communication & Influence:</strong> Exceptional communicator and presenter; able to bridge technical, operational, and executive conversations with clarity and confidence.</p>
 
   <h2>Leadership Commitments</h2>
   <ul>
-    <li>Communicate clearly, concisely, authentically &amp; often.</li>
+    <li>Communicate with clarity, honesty, and purpose.</li>
     <li>Challenge my team by setting high but attainable standards.</li>
     <li>Remain steadfastly curious in the pursuit of excellence and innovation.</li>
-    <li>Be the best example of honesty &amp; integrity in the workplace.</li>
-    <li>Be a source of positive energy &amp; unwavering belief for our vision.</li>
-    <li>Empower every team member with the support, resources, &amp; opportunities to grow, thrive, and achieve their full potential.</li>
+    <li>Be the best example of honesty & integrity in the workplace.</li>
+    <li>Be a source of positive energy & unwavering belief for our vision.</li>
+    <li>Provide the tools, time, and support people need to thrive.</li>
   </ul>
 
-  <h2>Interests</h2>
+  <h2>Personal Interests</h2>
   <p>My fiancé Brendan and I have six geographically scattered adult children between us, and share our wonderful home with three dogs and a cat. I enjoy my natural surroundings and vibrant local community, walking, e-biking, cooking, and gardening, all of which keep me refreshed and grounded.</p>
 
+  <h2>Career History</h2>
+  <p><strong>Organisational Consultant – Business Vitality (2017–Present):</strong> Advising public and private sector clients on complex transformation, capability building, and organisational design challenges. Led enterprise-level engagements to assess performance, reshape capability models, and implement integrated governance frameworks. Work has included multi-phase engagements with the Ministry of Justice, Department of Conservation, Fish & Game, and LiquidIT, as well as a contract management capability uplift program with NZ Beef & Lamb.</p>
+
+  <p><strong>Chief Executive Officer – Castleford (2015–2017):</strong> Led a successful turnaround and transformation of a trans-Tasman content marketing firm. Stabilised finances, redesigned the operating model, and repositioned the brand for growth and long-term sustainability.</p>
+
+  <p><strong>Chief Executive Officer – <a href="https://vimeo.com/90390917" target="_blank">Marketing Association (2007–2014)</a>:</strong> Led the transformation of NZ’s marketing body, growing membership, influence, and sponsorship through a renewed strategic vision and improved operating model. Championed professional standards, built cross-sector partnerships (including with CIM UK), and launched nationally recognised capability development programs. Positioned the organisation as a key voice in marketing ethics, data use, and innovation.</p>
+
+  <p><strong>Board Member – Advertising Standards Authority (2007–2014):</strong> Provided governance oversight and sector leadership in a self-regulating environment. Nominated to lead the development of the 3–5 year strategic plan to improve cash flow, levy collection, and dispute resolution.</p>
+
+  <p><strong>Chief Executive Officer – Proudmouth Dentistry (2004–2007):</strong> Brought commercial discipline and systems thinking to a private health group. Successfully repositioned and prepared the business for exit in a competitive, owner-led sector.</p>
+
+  <p><strong>Founder & CEO – Via NZ Ltd (2001–2004):</strong> Founded and led an international life education programme for young adults focused on leadership, self-discovery, and personal development. Executed an international marketing strategy, securing global media coverage and winning three Heist Education Awards (2007, UK) for Via's Prospectus.</p>
+
+  <p><strong>General Manager – esolutions (1999–2001):</strong> Commercialised the joint venture between EDS, Microsoft, and Telecom NZ to deliver integrated cloud-based IT services. Managed strategic alliances, regulatory relationships, and commercial delivery in a first-of-its-kind enterprise technology environment.</p>
+
+  <p><strong>Early Career – EDS, Netway Communications, Telecom NZ (1987–1999):</strong> Held progressive leadership roles spanning service design, business analysis, product development, and marketing in the IT&T industry. Built a strong foundation in data-driven service management, performance reporting, and cross-functional delivery.</p>
+
+  <h2>Success Stories</h2>
+  <div class="tile-container">
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/license-to-evolve-7">
+        <img src="FandG.jpg" alt="License to Evolve" />
+        <h3>License to Evolve</h3>
+        <div class="caption">How Fish &amp; Game Designed a Strategic Roadmap for Digital Growth, Efficiency, and Engagement</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/building-our-future-6?anim">
+        <img src="nzsupremecourt.jpg" alt="Building Our Future" />
+        <h3>Building Our Future</h3>
+        <div class="caption">How the Ministry of Justice Built a Resilient, High-Performing Policy Group for the Future</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/smarter-contracting-greater-value-5?anim">
+        <img src="sunrisefarm.jpg" alt="Smarter Contracting" />
+        <h3>Smarter Contracting, Greater Value</h3>
+        <div class="caption">NZ Beef &amp; Lamb's Blueprint for Smarter, More Transparent Contract Management</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/from-reactive-to-resilient-4?anim">
+        <img src="orange-liquid.jpg" alt="From Reactive to Resilient" />
+        <h3>From Reactive to Resilient</h3>
+        <div class="caption">How Liquid IT Transformed Client Experience, Knowledge Management, and Security</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/from-creative-chaos-to-scalable-success-3?anim">
+        <img src="golden-confetti.jpg" alt="Creative Chaos" />
+        <h3>From Creative Chaos to Scalable Success</h3>
+        <div class="caption">How Castleford Strengthened Systems, Services, and Brand for Sustainable Growth</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/from-fragmentation-to-efficiency-2?anim">
+        <img src="NZImage.jpg" alt="DOC" />
+        <h3>From Fragmentation to Efficiency</h3>
+        <div class="caption">How the Department of Conservation Built a Smarter, More Integrated ICT Service Model</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/from-crisis-to-stability-1?anim">
+        <img src="dentistry-image.jpg" alt="Crisis to Stability" />
+        <h3>From Crisis to Stability</h3>
+        <div class="caption">How Proudmouth Transformed and Positioned Itself for a Successful Sale</div>
+      </a>
+    </div>
+    <div class="tile">
+      <a href="https://businessvitality.odoo.com/blog/success-stories-3/from-vision-to-industry-voice-8">
+        <img src="ma2_cropped_rounded.png" alt="From Vision to Industry Voice" />
+        <h3>From Vision to Industry Voice</h3>
+        <div class="caption">How the MA Grew Its Reach, Relevance, and Reputation Through Strategic Transformation</div>
+      </a>
+    </div>
+  </div>
+
   <div class="center">
-    <a href="mailto:sue@businessvitality.co.nz" class="cta">Let's Talk</a>
-    <p style="margin-top: 1rem;">or call directly at <a href="tel:+6421931854">021 931 854</a></p>
+    <a class="cta" href="mailto:sue@businessvitality.co.nz">Let's Talk</a>
+    <p style="margin-top: 0.5rem;">or call directly at <a href="tel:+6421931854">021 931 854</a></p>
   </div>
 </body>
 </html>
